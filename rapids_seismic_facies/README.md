@@ -1,6 +1,11 @@
 # Seismic Facies Analysis using Machine Learning
 
-In this notebook, you will find step-by-step guidance on how to use the accelerated machine learning (ML) framework RAPIDS to perform unsupervised facies classification on 3D post-stack seismic datasets.
+In this sample Python code in a Jupyter notebook, you will find step-by-step guidance on how to use the accelerated machine learning (ML) framework RAPIDS to perform unsupervised facies classification on 3D post-stack seismic datasets.<br>
+
+The code sample illustrates:<br>
+• Preparing your dataset and compute seismic attributes using Python<br>
+• Manipulate SEGY files on GPU-accelerated dataframes<br>
+• How to train using clustering algorithms, such as k-means, PCA, and DBSCAN using RAPIDS, to perform seismic facies classification on 3D post-stack blocks<br>
 
 For detailed documentation, check the arXiv white paper: https://arxiv.org/abs/2007.15152
 
