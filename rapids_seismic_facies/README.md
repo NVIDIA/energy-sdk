@@ -31,9 +31,9 @@ python3 native libraries. (https://www.python.org/) <br>
 
 ## References
 
-The code provided was developed by NVIDIA in partnership with the University of Campinas ([UNICAMP](https://ic.unicamp.br/en/)).
+The code provided was developed by NVIDIA in partnership with the University of Campinas ([UNICAMP](https://ic.unicamp.br/en/)).<br>
 
-Authors:
+Authors:<br>
 **João Paulo Navarro** [jpnavarro@nvidia.com](mailto:jpnavarro@nvidia.com)<br>
 **Otávio O. Napoli** [onapoli@lmcad.ic.unicamp.br](mailto:onapoli@lmcad.ic.unicamp.br)<br>
 **Edson Borin** [edson@ic.unicamp.br](mailto:edson@ic.unicamp.br)<br>
