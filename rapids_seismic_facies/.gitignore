@@ -1,0 +1,11 @@
+run_docker_local.sh
+.ipynb_checkpoints
+datasets/*/*.sgy
+datasets/*/*.parq
+datasets/*/*.hdf5
+d2geo
+dask-worker-space/
+seg_aws.txt
+__pycache__/
+datasets/input/Parihaka_att.hdf
+datasets/input/Parihaka_att.parquet/
