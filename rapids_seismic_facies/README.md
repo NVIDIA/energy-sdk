@@ -32,7 +32,7 @@ sklearn (https://scikit-learn.org/)<br>
 cupy (https://cupy.dev/)<br>
 d2geo (https://github.com/dfitzgerald3/d2geo)<br>
 matplotlib, mpl_toolkits (https://matplotlib.org/)<br>
-python3 native libraries. (https://www.python.org/) <br>
+python3 native libraries (https://www.python.org/) <br>
 
 ## References
 
