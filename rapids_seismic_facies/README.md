@@ -13,7 +13,7 @@ Authors:
 
 For detailed documentation, check the arXiv white paper: https://arxiv.org/abs/2007.15152
 
-<img src="https://gitlab-master.nvidia.com/jpnavarro/rapids-seismic/-/raw/master/figs/intro.png" width=700 align=center>
+<img src="https://github.com/NVIDIA/energy-sdk/blob/master/rapids_seismic_facies/figs/intro.png?raw=true" width=700 align=center>
 
 # Getting Started
 
