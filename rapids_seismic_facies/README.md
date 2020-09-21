@@ -28,15 +28,15 @@ The scripts `build_docker.sh` and `run_docker.sh` show some basic Docker command
 This sample code is released under the Apache 2.0 license.
 
 ## Third Party Dependencies
-docker (https://www.docker.com/)
-segyio (https://github.com/equinor/segyio)
-numpy (https://numpy.org/)
-dask (https://dask.org/)
-sklearn (https://scikit-learn.org/)
-cupy (https://cupy.dev/)
-d2geo (https://github.com/dfitzgerald3/d2geo)
-matplotlib, mpl_toolkits (https://matplotlib.org/)
-python3 native libraries. (https://www.python.org/) 
+docker (https://www.docker.com/)<br>
+segyio (https://github.com/equinor/segyio)<br>
+numpy (https://numpy.org/)<br>
+dask (https://dask.org/)<br>
+sklearn (https://scikit-learn.org/)<br>
+cupy (https://cupy.dev/)<br>
+d2geo (https://github.com/dfitzgerald3/d2geo)<br>
+matplotlib, mpl_toolkits (https://matplotlib.org/)<br>
+python3 native libraries. (https://www.python.org/) <br>
 
 ## References
 
