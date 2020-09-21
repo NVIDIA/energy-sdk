@@ -2,15 +2,6 @@
 
 In this notebook, you will find step-by-step guidance on how to use the accelerated machine learning (ML) framework RAPIDS to perform unsupervised facies classification on 3D post-stack seismic datasets.
 
-The code provided was developed by NVIDIA in partnership with the University of Campinas ([UNICAMP](https://ic.unicamp.br/en/)).
-
-Authors:
-- João Paulo Navarro - [jpnavarro@nvidia.com](mailto:jpnavarro@nvidia.com)
-- Otávio O. Napoli - [onapoli@lmcad.ic.unicamp.br](mailto:onapoli@lmcad.ic.unicamp.br)
-- Edson Borin - [edson@ic.unicamp.br](mailto:edson@ic.unicamp.br)
-- Pedro Mário Cruz e Silva - [pcruzesilva@nvidia.com](mailto:pcruzesilva@nvidia.com)
-- Vanderson Martins do Rosário - [vrosario@lmcad.ic.unicamp.br](mailto:vrosario@lmcad.ic.unicamp.br)
-
 For detailed documentation, check the arXiv white paper: https://arxiv.org/abs/2007.15152
 
 <img src="https://github.com/NVIDIA/energy-sdk/blob/master/rapids_seismic_facies/figs/intro.png?raw=true" width=700 align=center>
@@ -39,5 +30,14 @@ matplotlib, mpl_toolkits (https://matplotlib.org/)<br>
 python3 native libraries. (https://www.python.org/) <br>
 
 ## References
+
+The code provided was developed by NVIDIA in partnership with the University of Campinas ([UNICAMP](https://ic.unicamp.br/en/)).
+
+Authors:
+**João Paulo Navarro** [jpnavarro@nvidia.com](mailto:jpnavarro@nvidia.com)
+**Otávio O. Napoli** [onapoli@lmcad.ic.unicamp.br](mailto:onapoli@lmcad.ic.unicamp.br)
+**Edson Borin** [edson@ic.unicamp.br](mailto:edson@ic.unicamp.br)
+**Pedro Mário Cruz e Silva** [pcruzesilva@nvidia.com](mailto:pcruzesilva@nvidia.com)
+**Vanderson Martins do Rosário** [vrosario@lmcad.ic.unicamp.br](mailto:vrosario@lmcad.ic.unicamp.br)
 
 **Joao Paulo de Oliveira** jpnavarro@nvidia.com
