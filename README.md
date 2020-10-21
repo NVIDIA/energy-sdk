@@ -11,7 +11,7 @@ Samples available:<br>
 Please contact your NVIDIA account manager or representative to start the process of accesses NDA samples via NVOnline. The Energy SDK samples released through NVOnline are under an Energy End User License Agreement (EULA) granting derivative use of the samples.<br>
 <br>
 Samples available:<br>
-1. Forward Propagators for Reverse Time Migration (1, 2, 3 pass ISO, VTI. TTI)<br>
+1. Forward Propagators for Reverse Time Migration (1, 2, 3 pass ISO, VTI, TTI)<br>
 2. Kirchhoff Depth Migration<br>
 3. Kirchhoff Time Migration<br>
 4. Reverse Time Migration with Compression<br>
