@@ -1,5 +1,5 @@
-# Welcome to NVIDIA's Energy SDK
-The Energy SDK is a collection of sample GPU accelerated algorithms and techniques for the Energy industry. 
+# Welcome to NVIDIA's Energy Samples
+The Energy Samples is a collection of GPU accelerated algorithms and techniques for the Energy industry. 
 
 ## Open source samples via github
 The Energy SDK samples released through github are under an Apache 2.0 license.<br>
