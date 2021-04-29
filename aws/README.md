@@ -115,10 +115,11 @@ Figure below shows an AWS architecture diagram to run the appllications
 
 * Choose the data set to run the application , for example bp_tti , bp_2
 * The applications can be run using the following commands
+    ```
     cd <dataset>
     <path-to>/kirDepth parfile= <path-to>/parfile.krdm
     <path-to>/kirTepth parfile= <path-to>/parfile.krtm
-
+   
 * There is a sample parameter file ( parfile ) included in each dataset. These parameter files can be customized to best suit your workload. These files define the key parameters used for running the model such as number of GPUs, number of traces etc. 
 * The applications output the imaging time/migration time measured in addition to a few other measured parameters such as travel time/compute time. You can also check the GPU utilization while the application is running.
 
