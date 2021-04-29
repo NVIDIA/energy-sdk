@@ -1,9 +1,9 @@
 # How to run Kirchhoff Depth and Time Migration on AWS
 
 
-Below are the instructions to run Kirchhoff Depth and Time Migration from the NVIDIA Energy SDK on AWS with  an Amazon EC2 instance.
+Below are the instructions to run Kirchhoff Depth and Time Migration from NVIDIA's Energy Samples on AWS with  an Amazon EC2 instance.
 
-### Step1 :  Launch an GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance).
+### Step1 :  Launch a GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance).
 
 * Based on your requirements , number and type of GPUs, launch a GPU based instance, for example g4, p3, p4 on AWS with a public image or any [custom image](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/)(AMI) of your choice. 
 * Attach a block storage using [Amazon Elastic Block Store (EBS)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) at the time of launch or select a GPU instance with large local NVMe instance store volumes (like g4d, p3dn or p4d) instances
@@ -19,7 +19,7 @@ Below are the instructions to run Kirchhoff Depth and Time Migration from the NV
 
 ### Step 3:  Building the applications and data reader utility
 
-* Download the NVIDIA Energy SDK samples packages  from NVOnline: 
+* Download NVIDIA's GPU Optimized Code samples packages  from NVOnline: 
     * <code> Nvidia_EnergySDK_KirchhoffDepthMigration </code>
     * <code> Nvidia_EnergySDK_KirchhoffTimeMigration </code>
     * <code> Nvidia_EnergySDK_DataReaders </code>
@@ -27,34 +27,34 @@ Below are the instructions to run Kirchhoff Depth and Time Migration from the NV
     * For example to build Kirchhoff Depth Migration
     * Extract the package 
         <code>tar -xvzf Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx.tgz</code>
-    * Build the application
+    * Build the application (Make sure path to cmake binary is included in the PATH variable)
        ```
-          cd Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx
           mkdir build
           cd build
           cmake ../
-          make </code>
+          make 
         ```    
-    *  This builds the binary kirDepth into the bin directory. To access it <code> cd ../bin/KirDepth </code>
+    *  This builds the binary kirDepth into the bin directory <code> ../bin/kirDepth </code>
+    
 * Follow similar steps to build Kirchhoff Time Migration
-* The  Nvidia_EnergySDK_DataReaders package includes segyReader utility which converts SEG-Y data format into binary format required for the EnergySDK
+* The <code> Nvidia_EnergySDK_DataReaders </code> package includes <code> segyReader </code> utility which converts SEG-Y data format into binary format required as an input to the applications
     * Build segyReader uitility
         * Extract Data Reader package 
             <code> tar -xvf Nvidia_EnergySDK_DataReaders_vx_x.tgz </code>
         * Make sure path to  cmake binary is included in the PATH variable 
             ```
-            cd Nvidia_EnergySDK_DataReaders_vx_x
+            cd segyReader
             mkdir build
             cd build
             cmake ../
             make 
             ```
-        * This builds the binary in <code> ./bin/segyReader </code>
+        * This builds the binary  <code> <path_to>/segyReader/build/bin/segyReader </code>
 
 
 ### Step 4:  Downloading and configuring test datasets 
 
-* Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset 
+* Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset (bp_tti , to test Kirchhoff Depth Migration )
     
     ```
          cd Nvidia_EnergySDK_DataReaders_vx_x
@@ -107,16 +107,15 @@ Below are the instructions to run Kirchhoff Depth and Time Migration from the NV
 
          gunzip Anisotropic_FD_Model_Shots.geom.gz
          gunzip ModelParams/Phi_Model.data.gz
-
-         ```
-* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset 
+         
+* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset (bp2d ) to test Kirchhoff Time Migration
 * Once the dataset is configured, move the configured input data into the localstorage/EBS volume attached on the instance that was formatted and mounted in Step2. 
 
 
 ### Step 5:  Running the applications
 
 
-* Choose the data set to run the application , for example bp_tti , bp_2d
+* Choose the data set to run the application , for example bp_tti , bp2d
 * The applications can be run using the following commands
     ```
     cd <dataset>
