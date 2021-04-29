@@ -119,7 +119,7 @@ Figure below shows an AWS architecture diagram to run the appllications
     <path-to>/kirDepth parfile= <path-to>/parfile.krdm
     <path-to>/kirTepth parfile= <path-to>/parfile.krtm
    
-* There is a sample parameter file ( parfile ) included in each dataset. This parameter file can be customized to best suit your workload. The file defines the key parameters used for running the model such as number of GPUs, number of traces etc. 
+* There is a sample parameter file ( parfile ) included in each dataset. This parameter file can be customized to best suit your workload. The file defines key parameters used for running the model such as number of GPUs, number of traces etc. 
 * The applications output the imaging time/migration time measured in addition to a few other measured parameters such as travel time/compute time. You can also check the GPU utilization while the application is running.
 
 
