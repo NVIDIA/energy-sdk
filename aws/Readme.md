@@ -27,8 +27,8 @@ Below are the instructions to run Kirchhoff Depth and Time Migration from the NV
     * For example to build Kirchhoff Depth Migration
     * Extract the package 
         <code>tar -xvzf Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx.tgz</code>
-        
-    *  ```
+    * Build the application
+       ```
           cd Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx
           mkdir build
           cd build
@@ -56,7 +56,7 @@ Below are the instructions to run Kirchhoff Depth and Time Migration from the NV
 
 * Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset 
     
-    * ```
+    ```
          cd Nvidia_EnergySDK_DataReaders_vx_x
          cd bp_tti
         
