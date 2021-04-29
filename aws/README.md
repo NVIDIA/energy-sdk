@@ -1,6 +1,6 @@
 ## Kirchhoff Depth and Time Migration from NVIDIA's Energy Samples on AWS
 
-Here we provide instructions to run Kirchhoff Depth and Time Migration from the NVIDIA Energy SDK on AWS with  an Amazon EC2 instance.
+Here we provide instructions to run Kirchhoff Depth and Time Migration from the NVIDIA's Energy Samples with  an Amazon EC2 instance.
 Figure below shows an AWS architecture diagram to run the appllications 
 
 ![AWS Architecture](images/Arch.png)
