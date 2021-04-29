@@ -7,7 +7,7 @@ Figure below shows an AWS architecture diagram to run the appllications
 
 ### Step1 :  Launch an GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
 
-* Based on your requirements , number and type of GPUs, launch a GPU based instance, for example g4, p3, p4 on AWS with a public image or any [custom image( AMI)](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/) of your choice. 
+* Based on your requirements , number and type of GPUs, launch a GPU based instance, for example g4, p3, p4 on AWS with a public image or any [custom image(AMI)](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/) of your choice. 
 * Attach a block storage using [Amazon Elastic Block Store (EBS)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) at the time of launch or select a GPU instance with large local NVMe instance store volumes (like g4d, p3dn or p4d) instances
 
 
