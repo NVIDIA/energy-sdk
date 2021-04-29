@@ -5,7 +5,7 @@ Figure below shows an AWS architecture diagram to run the appllications
 
 ![AWS Architecture](images/Arch.png)
 
-### Step1 :  Launch an GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
+### Step1 :  Launch a GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
 
 * Based on your requirements , number and type of GPUs, launch a GPU based instance, for example g4, p3, p4 on AWS with a public image or any [custom image(AMI)](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/) of your choice. 
 * Attach a block storage using [Amazon Elastic Block Store (EBS)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) at the time of launch or select a GPU instance with large local NVMe instance store volumes (like g4d, p3dn or p4d) instances
@@ -112,7 +112,7 @@ Figure below shows an AWS architecture diagram to run the appllications
 ### Step 5:  Running the applications 
 
 
-* Choose the data set to run the application , for example bp_tti , bp_2
+* Choose the data set to run the application. For example bp_tti for Kirchhoff Depth Migration or bp2d for Time Migration.
 * The applications can be run using the following commands
     ```
     cd <dataset>
