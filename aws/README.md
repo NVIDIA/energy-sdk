@@ -1,6 +1,9 @@
 ## Kirchhoff Depth and Time Migration from NVIDIA's Energy Samples on AWS
 
 Here we provide instructions to run Kirchhoff Depth and Time Migration from the NVIDIA Energy SDK on AWS with  an Amazon EC2 instance.
+Figure below shows an AWS architecture diagram to run the appllications 
+
+![AWS Architecture](images/Arch.png)
 
 ### Step1 :  Launch an GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
 
@@ -47,7 +50,7 @@ Here we provide instructions to run Kirchhoff Depth and Time Migration from the 
         * This builds the binary in <code > <pathto>/segyReader/build/bin/segyReader </code>
 
 
-Step 4:  Downloading and configuring test datasets 
+### Step 4:  Downloading and configuring test datasets 
 
 * Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset (bp_tti to test Kirchhoff Depth Migration)
     
@@ -107,7 +110,7 @@ Step 4:  Downloading and configuring test datasets
 * Once the datasets are configured, move the configured input data into the localstorage/EBS volume attached on the instance that was formatted and mounted in Step2. 
 
 
-### Step 4:  Running the applications 
+### Step 5:  Running the applications 
 
 
 * Choose the data set to run the application , for example bp_tti , bp_2
