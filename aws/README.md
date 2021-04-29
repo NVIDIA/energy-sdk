@@ -105,7 +105,7 @@ Figure below shows an AWS architecture diagram to run the appllications
          gunzip ModelParams/Phi_Model.data.gz
 
 
-* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset (bp2d to run Kirchhof Time Migration)
+* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset (bp2d to run Kirchhoff Time Migration)
 * Once the datasets are configured, move the configured input data into the localstorage/EBS volume attached on the instance that was formatted and mounted in Step2. 
 
 
