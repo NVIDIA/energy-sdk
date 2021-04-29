@@ -49,7 +49,7 @@ Here we provide instructions to run Kirchhoff Depth and Time Migration from the 
 
 Step 4:  Downloading and configuring test datasets 
 
-* Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset (bp_tti to test Kirchhoff Depth Migration )
+* Below are the steps to download and configure the  2007 BP Anisotropic Velocity Benchmark dataset (bp_tti to test Kirchhoff Depth Migration)
     
         cd Nvidia_EnergySDK_DataReaders_vx_x
         cd bp_tti
@@ -103,7 +103,7 @@ Step 4:  Downloading and configuring test datasets
          gunzip ModelParams/Phi_Model.data.gz
 
 
-* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset (bp2d to test Kirchhof Time Migration )
+* Follow similar steps to download and configure 2004 BP Velocity Estimation Benchmark dataset (bp2d to test Kirchhof Time Migration)
 * Once the datasets are configured, move the configured input data into the localstorage/EBS volume attached on the instance that was formatted and mounted in Step2. 
 
 
