@@ -36,7 +36,7 @@ Figure below shows an AWS architecture diagram to run the appllications
      ``` 
     *  This builds the binary kirDepth into the bin directory. To access it <code> ../bin/KirDepth </code>
 * Follow similar steps to build Kirchhoff Time Migration
-* The  Nvidia_EnergySDK_DataReaders package includes segyReader utility which converts SEG-Y data format into binary format required for the EnergySDK
+* The  Nvidia_EnergySDK_DataReaders package includes segyReader utility which converts SEG-Y data format into binary format which is the input format required by the applications
     * Build segyReader uitility ( Make sure path to  cmake binary is included in the PATH variable )
        ```
             tar -xvf Nvidia_EnergySDK_DataReaders_vx_x.tgz
