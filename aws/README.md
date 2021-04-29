@@ -29,7 +29,6 @@ Figure below shows an AWS architecture diagram to run the appllications
     * For example to build Kirchhoff Depth Migration
      ```
       tar -xvzf Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx.tgz
-      cd Nvidia_EnergySDK_KirchhoffDepthMigration_vx_xx
       mkdir build
       cd build
       cmake ../
