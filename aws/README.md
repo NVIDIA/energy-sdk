@@ -14,7 +14,7 @@ Figure below shows an AWS architecture diagram to run the appllications
 ### Step 2:  Prepare the Launched EC2 instance 
 
 
-* Once the instance launches, [format and mount the EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)/ [local storage](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.html#making-instance-stores-available-on-your-instances) attached to the instance
+* Once the instance launches, [format and mount the EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html) or [local storage](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.html#making-instance-stores-available-on-your-instances) attached to the instance
 * Install the latest [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us) and [CUDA tool kit](https://developer.nvidia.com/cuda-downloads) on the GPU instance
 * Install Cmake ( you can either [download binaries](https://cmake.org/download/) or compile cmake source ) on the EC2 instance to be able to build the segyReader utility as well as Kirchhoff Depth and Time Migration applications. (More details in Step 3)
 
