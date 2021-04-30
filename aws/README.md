@@ -1,11 +1,11 @@
 ## Kirchhoff Depth and Time Migration from NVIDIA's Energy Samples on AWS
 
-Here we provide instructions to run Kirchhoff Depth and Time Migration from the NVIDIA's Energy Samples with  an Amazon EC2 instance.
+Here we provide instructions to run Kirchhoff Depth and Time Migration from the NVIDIA's Energy Samples on an Amazon EC2 instance.
 Figure below shows an AWS architecture diagram to run the appllications 
 
 ![AWS Architecture](images/Arch.png)
 
-### Step1 :  Launch a GPU based EC2 instance using AWS [console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
+### Step1 :  Launch a GPU based EC2 instance using [AWS console](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance) 
 
 * Based on your requirements , number and type of GPUs, launch a GPU based instance, for example g4, p3, p4 on AWS with a public image or any [custom image(AMI)](https://aws.amazon.com/premiumsupport/knowledge-center/launch-instance-custom-ami/) of your choice. 
 * Attach a block storage using [Amazon Elastic Block Store (EBS)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) at the time of launch or select a GPU instance with large local NVMe instance store volumes (like g4d, p3dn or p4d) instances
@@ -14,8 +14,8 @@ Figure below shows an AWS architecture diagram to run the appllications
 ### Step 2:  Prepare the Launched EC2 instance 
 
 
-* Once the instance launches, [format and mount the EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)/local storage attached to the instance
-* Install appropriate [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us) as well as [CUDA tool kit](https://developer.nvidia.com/cuda-downloads) on the instance
+* Once the instance launches, [format and mount the EBS volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)/ [local storage](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/add-instance-store-volumes.html#making-instance-stores-available-on-your-instances) attached to the instance
+* Install the latest [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us) and [CUDA tool kit](https://developer.nvidia.com/cuda-downloads) on the GPU instance
 * Install Cmake ( you can either [download binaries](https://cmake.org/download/) or compile cmake source ) on the EC2 instance to be able to build the segyReader utility as well as Kirchhoff Depth and Time Migration applications. (More details in Step 3)
 
 
