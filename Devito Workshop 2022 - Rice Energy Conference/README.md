@@ -1,4 +1,4 @@
-## https://github.com/devitocodespro/Rice-Workshop-2022
+## Session Recording: https://drive.google.com/file/d/1qv_HFOfsrf9U6hDyWlpbZStU5WYZs542/view?usp=sharing
 
 ## Deep dive into performance benchmarking and optimization
 
