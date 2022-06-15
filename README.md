@@ -5,8 +5,8 @@ The Energy Samples is a collection of GPU accelerated algorithms and techniques 
 The Energy SDK samples released through github. Please review the license under each repository.<br>
 <br>
 Samples available:<br>
-1. Seismic Facies Analysis using Machine Learning : [energy-sdk-rapids-seismic-facies](https://github.com:NVIDIA/energy-sdk-rapids-seismic-facies)<br>
-2. Learn To Run a Power Network : [energy-sdk-l2rpn](https://github.com:NVIDIA/energy-sdk-l2rpn)<br>
+1. Seismic Facies Analysis using Machine Learning : [energy-sdk-rapids-seismic-facies](https://github.com/NVIDIA/energy-sdk-rapids-seismic-facies)<br>
+2. Learn To Run a Power Network : [energy-sdk-l2rpn](https://github.com/NVIDIA/energy-sdk-l2rpn)<br>
 
 ## NDA samples via NVOnline
 Please contact your NVIDIA account manager or representative to start the process of accesses NDA samples via NVOnline. The Energy SDK samples released through NVOnline are under an Energy End User License Agreement (EULA) granting derivative use of the samples.<br>
